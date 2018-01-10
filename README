@@ -1,0 +1,4 @@
+pipenv run scrapy shell http://www.zjhrss.gov.cn/col/col1389524/index.html?uid=4451525&pageNum=1
+from pyquery import PyQuery as pq
+scrapy runspider ./news_spider.py -o a.csv
+pip install selenium
